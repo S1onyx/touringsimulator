@@ -1,0 +1,46 @@
+//Syntax:
+
+//-------CONFIGURATION
+name: subtract
+init: 0
+accept: F
+
+//-------DELTA FUNCTION:
+0,_
+F,_,>
+
+0,a
+E1,a,>
+
+E1,a
+E1,a,>
+
+E1,_
+E2,_,>
+
+E2,a
+E2,a,>
+
+E2,_
+R2,_,<
+
+R2,_
+F,_,-
+
+R2,a
+S1,_,<
+
+S1,a
+S1,a,<
+
+S1,_
+S2,_,<
+
+S2,a
+S2,a,<
+
+S2,_
+R1,_,>
+
+R1,a
+0,_,>
